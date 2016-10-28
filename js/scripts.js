@@ -15,3 +15,15 @@ var counter = function(input) {
     }
     return arrayTwo;
 }
+
+
+//Frontier Airlines://
+
+$(document).ready(function(){
+  $("form#site").submit(function(event){
+    var userInput = parseInt($("input#num").val());
+    var finalResult = counter(input);
+    $("#results ul").html(finalResult);
+    event.preventDefault();
+  });
+});
