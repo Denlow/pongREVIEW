@@ -1,3 +1,31 @@
 p{
   display: all;
 }
+
+.jumbotron {
+  background: #ffe6b3;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  font-size: 25px;
+  text-align: center;
+
+}
+
+h4 {
+  text-align: center;
+  font-size: 17px;
+}
+
+li{
+  text-align: center;
+}
+
+body{
+  background-color: #d9d9d9;
+
+}
