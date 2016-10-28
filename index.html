@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <link rel="stylesheet" href="/css/master.css">
-      <link rel="stylesheet" href="/css/styles.css">
-      <script src="js/scripts.js"></script>
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/styles.css">
       <script src="js/jquery-3.1.1.js"></script>
+      <script src="js/scripts.js"></script>
+
       <title>Pong Page</title>
   </head>
   <body>
     <div class="container">
-      <h1>Try your luck with our Pong site!</h1>
-      <form id="site">
-        <div class="form-group">
-        <label for="num">Put your digits in here:</label>
-        <input type = text id="num">
-      </div>
-          <button type="submit" class="btn">GET!</button>
+      <div class="jumbotron">
 
+        <h1>Try your luck with the Pong site</h1>
+      </div>
+
+      <form id ="site">
+        <div class="form-group">
+          <label for="num">Put in numbers:</label>
+          <input id="num" type="text">
+        </div>
+
+
+        <button type="submit" class="form-group">GET!</button>
       </form>
       <div id="results">
-        <ul>
-
-        </ul>
+        <p>
+        </p>
       </div>
     </div>
   </body>
